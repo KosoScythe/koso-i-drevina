@@ -7,10 +7,9 @@
 
     <title>Koso i drevina</title>
 
-  
-	
+    <?php wp_head();?>
 	<link rel="icon" href="<?php echo get_bloginfo('template_directory'); ?>/images/icon.png" sizes="32x32">
-	<?php wp_head();?>
+	
 	
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
